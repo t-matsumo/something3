@@ -15,6 +15,16 @@
 		FC9F9E30237D8D370044123D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9F9E2E237D8D370044123D /* LaunchScreen.storyboard */; };
 		FC9F9E33237D8D370044123D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9F9E32237D8D370044123D /* main.m */; };
 		FC9F9E3D237D8D370044123D /* TestAppObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9F9E3C237D8D370044123D /* TestAppObjCTests.m */; };
+		FCADD275237FC6B6006C9242 /* TodoCell2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCADD273237FC6B6006C9242 /* TodoCell2TableViewCell.m */; };
+		FCADD276237FC6B6006C9242 /* TodoCell2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCADD274237FC6B6006C9242 /* TodoCell2TableViewCell.xib */; };
+		FCADD279237FCDD9006C9242 /* TodoCell2TableViewCellEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FCADD278237FCDD9006C9242 /* TodoCell2TableViewCellEntity.m */; };
+		FCADD27D237FDDAD006C9242 /* TodoTableDataCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = FCADD27C237FDDAD006C9242 /* TodoTableDataCreater.m */; };
+		FCB3DF6F237F07F600E1296A /* TodoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB3DF6D237F07F600E1296A /* TodoCell.m */; };
+		FCB3DF70237F07F600E1296A /* TodoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB3DF6E237F07F600E1296A /* TodoCell.xib */; };
+		FCB3DF76237F082F00E1296A /* SectionData.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB3DF75237F082F00E1296A /* SectionData.m */; };
+		FCB3DF79237F083B00E1296A /* RowData.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB3DF78237F083B00E1296A /* RowData.m */; };
+		FCB3DF7C237F085C00E1296A /* TodoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB3DF7B237F085C00E1296A /* TodoEntity.m */; };
+		FCC7300523810A8300E217D9 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC7300423810A8300E217D9 /* TableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +53,24 @@
 		FC9F9E38237D8D370044123D /* TestAppObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9F9E3C237D8D370044123D /* TestAppObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppObjCTests.m; sourceTree = "<group>"; };
 		FC9F9E3E237D8D370044123D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCADD272237FC6B6006C9242 /* TodoCell2TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoCell2TableViewCell.h; sourceTree = "<group>"; };
+		FCADD273237FC6B6006C9242 /* TodoCell2TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoCell2TableViewCell.m; sourceTree = "<group>"; };
+		FCADD274237FC6B6006C9242 /* TodoCell2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoCell2TableViewCell.xib; sourceTree = "<group>"; };
+		FCADD277237FCDD9006C9242 /* TodoCell2TableViewCellEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoCell2TableViewCellEntity.h; sourceTree = "<group>"; };
+		FCADD278237FCDD9006C9242 /* TodoCell2TableViewCellEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoCell2TableViewCellEntity.m; sourceTree = "<group>"; };
+		FCADD27B237FDDAD006C9242 /* TodoTableDataCreater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoTableDataCreater.h; sourceTree = "<group>"; };
+		FCADD27C237FDDAD006C9242 /* TodoTableDataCreater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoTableDataCreater.m; sourceTree = "<group>"; };
+		FCB3DF6C237F07F600E1296A /* TodoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoCell.h; sourceTree = "<group>"; };
+		FCB3DF6D237F07F600E1296A /* TodoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoCell.m; sourceTree = "<group>"; };
+		FCB3DF6E237F07F600E1296A /* TodoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoCell.xib; sourceTree = "<group>"; };
+		FCB3DF71237F081B00E1296A /* TableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		FCB3DF74237F082F00E1296A /* SectionData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionData.h; sourceTree = "<group>"; };
+		FCB3DF75237F082F00E1296A /* SectionData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionData.m; sourceTree = "<group>"; };
+		FCB3DF77237F083B00E1296A /* RowData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RowData.h; sourceTree = "<group>"; };
+		FCB3DF78237F083B00E1296A /* RowData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RowData.m; sourceTree = "<group>"; };
+		FCB3DF7A237F085C00E1296A /* TodoEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoEntity.h; sourceTree = "<group>"; };
+		FCB3DF7B237F085C00E1296A /* TodoEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoEntity.m; sourceTree = "<group>"; };
+		FCC7300423810A8300E217D9 /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +112,11 @@
 		FC9F9E1F237D8D360044123D /* TestAppObjC */ = {
 			isa = PBXGroup;
 			children = (
+				FC9F9E47237D8D570044123D /* Framework */,
+				FC9F9E49237D8D710044123D /* View */,
 				FC9F9E20237D8D360044123D /* AppDelegate.h */,
 				FC9F9E21237D8D360044123D /* AppDelegate.m */,
+				FCADD27A237FDD74006C9242 /* Model */,
 				FC9F9E23237D8D360044123D /* SceneDelegate.h */,
 				FC9F9E24237D8D360044123D /* SceneDelegate.m */,
 				FC9F9E26237D8D360044123D /* ViewController.h */,
@@ -106,6 +137,53 @@
 				FC9F9E3E237D8D370044123D /* Info.plist */,
 			);
 			path = TestAppObjCTests;
+			sourceTree = "<group>";
+		};
+		FC9F9E47237D8D570044123D /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FCB3DF71237F081B00E1296A /* TableViewDataSource.h */,
+				FCC7300423810A8300E217D9 /* TableViewDataSource.m */,
+				FCB3DF74237F082F00E1296A /* SectionData.h */,
+				FCB3DF75237F082F00E1296A /* SectionData.m */,
+				FCB3DF77237F083B00E1296A /* RowData.h */,
+				FCB3DF78237F083B00E1296A /* RowData.m */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		FC9F9E49237D8D710044123D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCADD271237FC684006C9242 /* TodoCell2 */,
+				FCB3DF6C237F07F600E1296A /* TodoCell.h */,
+				FCB3DF6D237F07F600E1296A /* TodoCell.m */,
+				FCB3DF6E237F07F600E1296A /* TodoCell.xib */,
+				FCB3DF7A237F085C00E1296A /* TodoEntity.h */,
+				FCB3DF7B237F085C00E1296A /* TodoEntity.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCADD271237FC684006C9242 /* TodoCell2 */ = {
+			isa = PBXGroup;
+			children = (
+				FCADD272237FC6B6006C9242 /* TodoCell2TableViewCell.h */,
+				FCADD273237FC6B6006C9242 /* TodoCell2TableViewCell.m */,
+				FCADD274237FC6B6006C9242 /* TodoCell2TableViewCell.xib */,
+				FCADD277237FCDD9006C9242 /* TodoCell2TableViewCellEntity.h */,
+				FCADD278237FCDD9006C9242 /* TodoCell2TableViewCellEntity.m */,
+			);
+			path = TodoCell2;
+			sourceTree = "<group>";
+		};
+		FCADD27A237FDD74006C9242 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCADD27B237FDDAD006C9242 /* TodoTableDataCreater.h */,
+				FCADD27C237FDDAD006C9242 /* TodoTableDataCreater.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +269,8 @@
 				FC9F9E30237D8D370044123D /* LaunchScreen.storyboard in Resources */,
 				FC9F9E2D237D8D370044123D /* Assets.xcassets in Resources */,
 				FC9F9E2B237D8D360044123D /* Main.storyboard in Resources */,
+				FCADD276237FC6B6006C9242 /* TodoCell2TableViewCell.xib in Resources */,
+				FCB3DF70237F07F600E1296A /* TodoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,10 +288,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB3DF79237F083B00E1296A /* RowData.m in Sources */,
+				FCB3DF76237F082F00E1296A /* SectionData.m in Sources */,
 				FC9F9E28237D8D360044123D /* ViewController.m in Sources */,
+				FCADD27D237FDDAD006C9242 /* TodoTableDataCreater.m in Sources */,
+				FCADD279237FCDD9006C9242 /* TodoCell2TableViewCellEntity.m in Sources */,
 				FC9F9E22237D8D360044123D /* AppDelegate.m in Sources */,
+				FCB3DF7C237F085C00E1296A /* TodoEntity.m in Sources */,
+				FCADD275237FC6B6006C9242 /* TodoCell2TableViewCell.m in Sources */,
+				FCB3DF6F237F07F600E1296A /* TodoCell.m in Sources */,
 				FC9F9E33237D8D370044123D /* main.m in Sources */,
 				FC9F9E25237D8D360044123D /* SceneDelegate.m in Sources */,
+				FCC7300523810A8300E217D9 /* TableViewDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -355,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
